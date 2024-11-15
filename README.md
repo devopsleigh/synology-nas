@@ -41,4 +41,4 @@ On the Synology NAS:
    Application secret | Paste the value from Keycloak **Clients** > **synology** > **Credentials** > **Client secret**
    Redirect URI | `https://{NAS FQDN}:{NAS https port}`
    Authorization scope | `openid profile`
-   Username claim | `name`
+   Username claim | `preferred_username`
